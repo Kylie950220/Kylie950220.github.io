@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #F2EBE5;
+}
+.header{
+/* 在 header 設定 display: flex; ，使 logo 與 nav 兩區塊爲橫向排列(flex 排列方向預設即爲橫向排列)*/
+    display: flex;
+    background:#2B262D;
+    width: 100%;
+    height: 75px;
+    position:fixed;
+    top: 0px;
+    left: 0;
+    opacity: 100%;
+    z-index:100;
+}
+.logo{
+    position: relative;
+    align-self:center;
+    width: 50%;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    float:left;
+    text-align:left;
+    padding-top: 5px;
+    margin: auto 80px;
+    color: #EBC999;
+}
+.nav1-1{
+/* 設定 align-self: flex-end; 使conceot/product/contact底邊可以水平置中於nav */
+    align-self:center;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float:left;
+    text-align:left;
+    padding-top: 5px;
+    margin: auto 80px;
+    color: #F2EBE5;
+}
+
+.nav1-2{
+/* 設定 align-self: flex-end; 使conceot/product/contact底邊可以水平置中於nav */
+    align-self:flex-end;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    text-align:right;
+    padding-top: 5px;
+    margin: auto 70px;
+    color: #F2EBE5;
+}
+
+.content h1{
+    color: #2B262D;
+    align-self:flex-end;
+    text-align:left;
+    font-size: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.3;
+    margin: 0;
+    padding: 10vh;
+}
+.content1{
+    background-color:#FDF4EC;
+    width: 1000px;
+    margin: 100px auto;
+    color: #C6B3A3;
+}
+.photo{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.text{
+    width: 400px;
+    float: left;
+    padding-left: 65px;
+    box-sizing: border-box;
+}
+
+.text h2{
+    font-size: 50px;
+}
+.photo img{
+    margin: 50px;
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background: #2B262D;
+    color: #fff;
+    width: 100%;
+    clear: left;
+}
+.sitemap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.column {
+    width: 33.3333%;
+    float: left;
+}
+.p{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+}
